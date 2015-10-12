@@ -1,0 +1,33 @@
+{
+  "name": "unsplash",
+  "version": "0.0.1",
+  "description": "Unsplash API wrapper for Node.js",
+  "keywords": [
+    "unsplash",
+    "api",
+    "wrapper"
+  ],
+  "homepage": "https://github.com/cgrs/node-unsplash",
+  "main": "unsplash.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "build": "./node_modules/.bin/babel ./src/unsplash.js -o ./unsplash.js"
+  },
+  "author": "carlos gonzález <cgrs@cgrs.tk> (http://cgrs.tk)",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgrs/node-unsplash"
+  },
+  "bugs": {
+    "url": "https://github.com/cgrs/node-unsplash/issues"
+  }
+}
