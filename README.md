@@ -28,6 +28,9 @@ Before running any test, please add your Application ID from Unsplash to `test/u
 var clientID // <-- add here your client ID ;)
 /* ... */
 ```
+## Documentation 
+The code is annotated in JSDoc format. In order to create the documentation, just run `jsdoc src/unsplash.js`
+
 ## Side notes
 Please be very careful with the API limit, as it runs off quickly. Once you've set out of development, please ask Unsplash so as to increase your limit.
 
