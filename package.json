@@ -11,7 +11,8 @@
   "main": "unsplash.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
-    "build": "./node_modules/.bin/babel ./src/unsplash.js -o ./unsplash.js"
+    "build": "./node_modules/.bin/babel ./src/unsplash.js -o ./unsplash.js",
+    "postinstall": "npm run build"
   },
   "author": "carlos gonzález <cgrs@cgrs.tk> (http://cgrs.tk)",
   "license": "MIT",
