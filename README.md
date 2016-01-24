@@ -7,7 +7,6 @@ Simple (and unofficial) wrapper to handle the public API of [Unsplash](http://un
 $ git clone https://github.com/cgrs/node-unsplash.git
 $ cd node-unsplash
 $ npm install
-$ npm run build
 ```
 ## Usage
 ```javascript
