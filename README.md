@@ -4,9 +4,7 @@ Simple (and unofficial) wrapper to handle the public API of [Unsplash](http://un
 ## Installation
 
 ```bash
-$ git clone https://github.com/cgrs/node-unsplash.git
-$ cd node-unsplash
-$ npm install
+$ npm install cgrs/node-unsplash
 ```
 ## Usage
 ```javascript
