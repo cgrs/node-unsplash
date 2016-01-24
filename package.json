@@ -17,10 +17,10 @@
   "author": "carlos gonzález <cgrs@cgrs.tk> (http://cgrs.tk)",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.64.0"
+    "request": "^2.64.0",
+    "babel": "^5.8.23"
   },
   "devDependencies": {
-    "babel": "^5.8.23",
     "mocha": "^2.3.3",
     "should": "^7.1.0"
   },
