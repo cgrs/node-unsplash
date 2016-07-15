@@ -21,11 +21,8 @@ unsplash.random().then(function(photo){
 })
 ```
 ## Tests
-Before running any test, please add your Application ID from Unsplash to `test/unsplash.test.js` here:
-```javascript
-/* ... */
-var clientID // <-- add here your client ID ;)
-/* ... */
+```bash
+$ CLIENT_ID=[your client id] npm run test
 ```
 ## Documentation 
 The code is annotated in JSDoc format. In order to create the documentation, just run `jsdoc src/unsplash.js`
