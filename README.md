@@ -1,5 +1,5 @@
 # Unsplash API wrapper
-Simple (and unofficial) wrapper to handle the public API of [Unsplash](http://unsplash.com)
+Simple (and unofficial) wrapper to handle the public API of [Unsplash](http://unsplash.com) [![Build Status](https://travis-ci.org/cgrs/node-unsplash.svg?branch=master)](https://travis-ci.org/cgrs/node-unsplash)
 
 Note: Since Unsplash has released their [official API wrapper](https://github.com/unsplash/unsplash-js), this project won't be longer maintained.
 
