@@ -2,7 +2,7 @@
 should = require("should")
 Unsplash = require("../unsplash")
 
-clientID = undefined # add here your Unsplash API client ID
+clientID = process.env.CLIENT_ID # add here your Unsplash API client ID
 unsplash = new Unsplash(clientID)
 
 describe "users", ->
