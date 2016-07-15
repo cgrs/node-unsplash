@@ -1,6 +1,8 @@
 # Unsplash API wrapper
 Simple (and unofficial) wrapper to handle the public API of [Unsplash](http://unsplash.com)
 
+Note: Since Unsplash has released their [official API wrapper](https://github.com/unsplash/unsplash-js), this project won't be longer maintained.
+
 ## Installation
 
 ```bash
