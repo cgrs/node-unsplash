@@ -22,7 +22,7 @@ unsplash.random().then(function(photo){
 ```
 ## Tests
 ```bash
-$ CLIENT_ID=[your client id] npm run test
+$ CLIENT_ID=[your client id] npm test
 ```
 ## Documentation 
 The code is annotated in JSDoc format. In order to create the documentation, just run `jsdoc src/unsplash.js`
