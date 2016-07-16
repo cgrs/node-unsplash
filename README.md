@@ -24,9 +24,9 @@ unsplash.random().then(function(photo){
 ```bash
 $ CLIENT_ID=[your client id] npm test
 ```
-## Documentation 
+<!-- ## Documentation 
 The code is annotated in JSDoc format. In order to create the documentation, just run `jsdoc src/unsplash.js`
-
+-->
 ## Side notes
 Please be very careful with the API limit, as it runs off quickly. Once you've set out of development, please ask Unsplash so as to increase your limit.
 
